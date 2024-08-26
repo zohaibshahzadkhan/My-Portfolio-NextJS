@@ -1,5 +1,6 @@
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -10,7 +11,7 @@ import { navItems } from "@/data";
 export default function Home() {
   return (
     <main
-      className="relative flex flex-col justify-center items-center  overflow-hidden 
+      className="relative flex flex-col justify-center items-center overflow-clip
     mx-auto sm:px-10 px-5 bg-black-100"
     >
       <div className="max-w-7xl w-full">
@@ -21,6 +22,7 @@ export default function Home() {
         <Recommendations />
         <Experience />
         <Approach />
+        <Footer />
       </div>
     </main>
   );
