@@ -1,7 +1,9 @@
+'use client'
 import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/PinContainer";
 import { FaLocationArrow } from "react-icons/fa";
+
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
@@ -17,8 +19,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title={`${item.title}`}
+              href={`${item.link}`}
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h[40vh] overflow-hidden h-[30vh] mb-10">
                 <div
@@ -63,9 +65,9 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                <div className="flex justify-center items-center">
+                <div className="flex justify-center items-center" onClick={() => window.open(item.link, '_blank')}>
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    View Project on GitHub
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

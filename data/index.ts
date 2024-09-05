@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/client.png",
     spareImg: "",
   },
   {
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently diving into Next.js",
+    description: "I am expanding my frontend development skills and enhance my ability to build dynamic, high-performance web applications",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,70 +72,44 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "SocialVibe",
+    des: "A dynamic social media app built with React, offering features for user interaction and content sharing.",
+    img: "/socialvibe.png",
+    iconLists: ["/re.svg", "/tail.svg", "/py.svg", "/django.svg", "/vite.svg","psql.svg", "cloudinary.svg"],
+    link: "https://github.com/zohaibshahzadkhan/SocialVibe-React-App",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
-  },
-  {
-    id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
-  },
+    title: "ParrotHub",
+    des: "A versatile platform for community engagement and discussion, designed with modern web technologies.",
+    img: "/parrothub.png",
+    iconLists: ["/py.svg", "/django.svg", "psql.svg", "bootstrap.svg", "cloudinary.svg"],
+    link: "https://github.com/zohaibshahzadkhan/ParrotHub",
+  }
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I rarely come across real talents who stand out like Zohaib Shahzad. I had the pleasure of working with him for 3 years, collaborating on several projects. Zohaib's ability to handle multiple projects was unlike any I’ve seen before and made a dramatic increase in productivity. As a team member or a leader, Zohaib earns my highest recommendation.",
+    name: "Engr. M. Mursaleen Javed",
+    title: "MS SQL Administrator at Alpha Data",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Zohaib Shahzad is a highly motivated and talented software engineer with a focus on UX and ReactJS. I've been working with him on a project for the past 2 years and it's been nothing but bliss to have him on the team. He has a good comprehension of complex requirements and great analytical skills. Furthermore, he works very independently. With his support, we've been able to create and launch an amazing product. He is also a very fun and likeable person. I can highly recommend him!",
+    name: "Michael Thomas",
+    title: "Visionary Architect",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Zohaib is an exceptional frontend developer with outstanding skills in React, Vue.js, and JavaScript. Over 2 years, he demonstrated a deep understanding of frontend principles and played a key role in delivering high-quality projects. His eagerness to explore new technologies, especially in cloud computing, shows his commitment to growth. Zohaib is a valuable team player with a positive attitude and strong work ethic. I highly recommend him for any frontend or full stack development position.",
+    name: "Adrian Hagerty",
+    title: "Frontend Developer Specialist",
   },
 ];
+
+
 
 export const companies = [
   {
@@ -173,32 +147,32 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Software Engineer II - Edge Case Research",
+    desc: "Developed user interfaces with Vue.js, Vuetify, and React, enhancing user experience. Worked with design and backend teams to translate concepts into functional solutions using HTML, CSS, and JavaScript (ES6). Optimized performance and resolved technical challenges to boost user satisfaction.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
+  // {
+  //   id: 2,
+  //   title: "Professional Development",
+  //   desc: "During my career break, I earned a diploma and obtained a license in Advanced Frontend Development from Code Institute. Expanded expertise in AWS Cloud services, including IAM, RDS, CloudWatch, S3, VPC, and EC2.",
+  //   className: "md:col-span-2", // change to md:col-span-2
+  //   thumbnail: "/exp2.svg",
+  // },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Software Engineer - TerraLoupe",
+    desc: "Led full-cycle frontend projects with React, covering design, implementation, and testing. Worked closely with design teams to integrate UI/UX elements, boosting user engagement and satisfaction. Ensured component reliability through thorough testing.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
+  // {
+  //   id: 4,
+  //   title: "Lead Frontend Developer",
+  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/exp3.svg",
+  // },
 ];
 
 export const socialMedia = [
