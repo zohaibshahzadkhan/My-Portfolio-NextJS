@@ -49,6 +49,7 @@ export const BentoGridItem = ({
 }) => {
   const stackList: string[] = [
     "ReactJS",
+    "NextJS",
     "VueJs",
     "JavaScript",
     "Typescript",
