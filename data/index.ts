@@ -85,6 +85,22 @@ export const projects = [
     img: "/parrothub.png",
     iconLists: ["/py.svg", "/django.svg", "psql.svg", "bootstrap.svg", "cloudinary.svg"],
     link: "https://github.com/zohaibshahzadkhan/ParrotHub",
+  },
+  {
+    id: 3,
+    title: "The Music Academy",
+    des: "This app is built with Next.js and Aeternity UI, offers a comprehensive platform for a music academy. It features a courses section, detailed instructor info, a contact page, and student testimonials. Designed for a seamless user experience, it helps aspiring musicians explore, learn, and connect effortlessly.",
+    img: "/musicAcademy.png",
+    iconLists: ["/re.svg", "tail.svg", "next.svg"],
+    link: "https://github.com/zohaibshahzadkhan/The-Music-Academy-NextJS-",
+  },
+  {
+    id: 4,
+    title: "Nike Landing Page",
+    des: "Landing page for Nike built with Tailwind CSS and NextJS.",
+    img: "/nike.png",
+    iconLists: ["/re.svg", "tail.svg", "next.svg"],
+    link: "https://github.com/zohaibshahzadkhan/Nike-Landing-Page-TailwindCss",
   }
 ];
 
